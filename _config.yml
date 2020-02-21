@@ -2,7 +2,7 @@ title: Ferrari
 description: >-
   daily thoughts
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "ferrari.rencewang.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "thoughts.rencewang.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 theme: minima
 plugins:
