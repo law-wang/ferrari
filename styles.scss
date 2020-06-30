@@ -2,6 +2,7 @@
 ---
 @import url("https://use.typekit.net/xbv3jvp.css");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
 
 /* CSS RESET */
 html, body, div, span, applet, object, iframe,
@@ -82,11 +83,11 @@ h4 {
   font-style: italic;
 }
 h5 {
-  font-family: aktiv-grotesk, "Helvetica Neue", Helvetica, "Franklin Gothic", Arial, sans-serif;
+  font-family: aktiv-grotesk, 'Noto Sans SC', "Helvetica Neue", Helvetica, "Franklin Gothic", Arial, sans-serif;
   font-weight: 500;
 }
 h6 {
-	font-family: aktiv-grotesk, "Helvetica Neue", Helvetica, "Franklin Gothic", Arial, sans-serif;
+	font-family: aktiv-grotesk, 'Noto Sans SC', "Helvetica Neue", Helvetica, "Franklin Gothic", Arial, sans-serif;
   font-weight: 700;
 	font-size: 40px;
 	margin-bottom: 20px;
@@ -96,7 +97,7 @@ a {
   color: #000;
 }
 p {
-  font-family: aktiv-grotesk, "Helvetica Neue", Helvetica, "Franklin Gothic", Arial, sans-serif;
+  font-family: aktiv-grotesk, 'Noto Sans SC', "Helvetica Neue", Helvetica, "Franklin Gothic", Arial, sans-serif;
   font-size: 30px;
   line-height: normal;
 }
