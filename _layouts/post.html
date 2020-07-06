@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="/favicon-1.png"/>
-    <title>In My Head • Rence</title>
+    <title>Thoughts | Lawrence Wang</title>
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
+    <div class="navigation">
+      <a class="home" href="/">HOME</a>
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">PREV</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">NEXT</a>
+      {% endif %}
+    </div>
+
     {{ content }}
   </body>
 </html>
