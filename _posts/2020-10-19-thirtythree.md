@@ -3,7 +3,9 @@ layout: post
 date:   2020-10-19 18:03:02
 ---
 
-###### Either way, we're not alone. I'll find a new place to be from.
+###### Either way, we're not alone. 
+
+###### I'll find a new place to be from.
 
 Driving out 
 
@@ -32,6 +34,8 @@ rap country song
 A slaughterhouse, 
 
 an outlet mall
+
+<br/><br/>
 
 ###### Slot machines, 
 
