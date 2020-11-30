@@ -3,7 +3,7 @@ layout: post
 date:   2020-10-19 18:03:02
 ---
 
-##### Either way, we're not alone. I'll find a new place to be from.
+###### Either way, we're not alone. I'll find a new place to be from.
 
 Driving out 
 
@@ -33,6 +33,6 @@ A slaughterhouse,
 
 an outlet mall
 
-##### Slot machines, 
+###### Slot machines, 
 
-##### fear of God
+###### fear of God
