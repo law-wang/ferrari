@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body class="home">
+    <div class="cursor hidden"></div>
     <h1>Thoughts</h1>
     <ul>
       {% for post in site.posts %}
@@ -17,10 +18,10 @@
         </li>
       {% endfor %}
     </ul>
-    <div class="cursor hidden"></div>
 
     <script type="text/javascript">
-      const mouseCursor = document.querySelector(".cursor")
+      let mouseCursor = document.querySelector(".home")
+      let mouseCursor = document.querySelector(".cursor")
 
       window.addEventListener("mousemove", cursor)
       window.addEventListener("mouseover", enter)
