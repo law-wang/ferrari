@@ -20,12 +20,13 @@
     </ul>
 
     <script type="text/javascript">
-      let x = document.querySelector(".home")
+      console.log("no")
       let mouseCursor = document.querySelector(".cursor")
+      console.log("yes")
 
-      window.addEventListener("mousemove", cursor)
-      window.addEventListener("mouseover", enter)
-      window.addEventListener("mouseout", leave)
+      document.addEventListener("mousemove", cursor)
+      document.addEventListener("mouseover", enter)
+      document.addEventListener("mouseout", leave)
 
       const cursor = (e) => {
         console.log("move")
@@ -35,7 +36,7 @@
 
       const enter = (e) => {
         console.log("enter")
-          mouseCursor.classList.remove("hidden")
+        mouseCursor.classList.remove("hidden")
       }
 
       const leave = (e) => {
