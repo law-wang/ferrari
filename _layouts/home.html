@@ -27,16 +27,19 @@
       window.addEventListener("mouseout", leave)
 
       const cursor = (e) => {
-          mouseCursor.style.top = e.pageY + "px"
-          mouseCursor.style.left = e.pageX + "px"
+        console.log("move")
+        mouseCursor.style.top = e.pageY + "px"
+        mouseCursor.style.left = e.pageX + "px"
       }
 
       const enter = (e) => {
+        console.log("enter")
           mouseCursor.classList.remove("hidden")
       }
 
       const leave = (e) => {
-          mouseCursor.classList.add("hidden")
+        console.log("leave")
+        mouseCursor.classList.add("hidden")
       }
     </script>
   </body>
