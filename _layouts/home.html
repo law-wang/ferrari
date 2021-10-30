@@ -20,13 +20,13 @@
     </ul>
 
     <script type="text/javascript">
-      console.log("no")
       let mouseCursor = document.querySelector(".cursor")
-      console.log("yes")
 
-      document.addEventListener("mousemove", cursor)
-      document.addEventListener("mouseover", enter)
-      document.addEventListener("mouseout", leave)
+      if (document.readyState === 'complete') {
+        window.addEventListener("mousemove", cursor)
+        window.addEventListener("mouseover", enter)
+        window.addEventListener("mouseout", leave)
+      }
 
       const cursor = (e) => {
         console.log("move")
