@@ -23,8 +23,8 @@
       let mouseCursor = document.querySelector(".cursor")
 
       const cursor = (e) => {
-        mouseCursor.style.top = e.pageY + "px"
-        mouseCursor.style.left = e.pageX + "px"
+        mouseCursor.style.top = window.innerHeight / 2 + "px"
+        mouseCursor.style.left = window.innerWidth / 2 + "px"
       }
 
       const enter = (e) => {
