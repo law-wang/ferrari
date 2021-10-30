@@ -97,3 +97,21 @@ li {
   font-weight: 700;
   margin-bottom: 20px;
 }
+.cursor {
+  z-index: -10;
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  background-color: rgba(255, 193, 49, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  @media (hover: none) {
+    display: none;
+  }
+}
+.hidden {
+  opacity: 0;
+}
