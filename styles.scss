@@ -1,9 +1,5 @@
 ---
 ---
-@import url("https://use.typekit.net/xbv3jvp.css");
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@531&display=swap');
 
 /* CSS RESET */
 html, body, div, span, applet, object, iframe,
@@ -51,32 +47,25 @@ table {
 }
 
 /* CUSTOM CSS */
-body {
-  margin-top: 30px;
-  margin-left: 30px;
-	margin-bottom: 30px;
-  background-color: #f8f8f8;
-  max-width: 600px;
-  font-family: aktiv-grotesk, 'Noto Sans SC', "Helvetica Neue", Helvetica, "Franklin Gothic", Arial, sans-serif;
+* {
+  font-family: "Times New Roman", "SimSun", "STSong", serif;
+  color: #e20413;
 }
-.home {
-  max-width: 300px;
-  > h1 {
-    word-break: break-all;
-  }
+body {
+  max-width: 600px;
+  margin: 30px;
+  background-color: #cdedee;
 }
 h1 {
-  font-family: campaign, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 100px;
+  font-size: 80px;
   padding: 0 0 10px 0;
 }
 h3,
 h4 {
-  font-family: minion-pro, serif;
   font-weight: 500;
-  padding: 0 0 0 0;
+  padding: 0;
   font-size: 15px;
 }
 h3 {
@@ -97,9 +86,8 @@ h6 {
 	font-size: 40px;
 	margin-bottom: 20px;
 }
-a {
+a:hover {
   text-decoration: none;
-  color: #000;
 }
 p {
   font-size: 30px;
@@ -107,7 +95,6 @@ p {
 }
 li {
   padding: 10px 0 10px 0;
-  text-align: right;
 }
 @media screen and (max-width: 531px) {
 	body {
