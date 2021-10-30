@@ -48,8 +48,9 @@ table {
 
 /* CUSTOM CSS */
 * {
-  font-family: "Times New Roman", "SimSun", "STSong", serif;
-  color: #e20413;
+  font-family: "Times New Roman", "SimSun", "STSong", serif !important;
+  color: #e20413 !important;
+  font-size: 20px !important;
 }
 body {
   max-width: 600px;
@@ -58,20 +59,13 @@ body {
 }
 h1 {
   font-weight: 700;
-  font-style: normal;
-  font-size: 80px;
+  font-size: 80px !important;
   padding: 0 0 10px 0;
 }
 h3,
 h4 {
-  font-weight: 500;
-  padding: 0;
-  font-size: 15px;
-}
-h3 {
-  font-style: normal;
   font-weight: 700;
-  font-size: 25px;
+  padding: 0;
 }
 h4 {
   font-style: italic;
@@ -79,14 +73,14 @@ h4 {
   margin-top: 15px;
 }
 h5 {
-  font-weight: 500;
+  font-weight: 700;
 }
 h6 {
   font-weight: 700;
 	font-size: 40px;
 	margin-bottom: 20px;
 }
-a:hover {
+a {
   text-decoration: none;
 }
 p {
@@ -104,7 +98,6 @@ li {
 	}
 }
 .navigation {
+  font-weight: 700;
   margin-bottom: 20px;
-  font-weight: 500;
-  font-size: 15px;
 }
