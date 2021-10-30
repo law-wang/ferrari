@@ -23,21 +23,18 @@
       let mouseCursor = document.querySelector(".cursor")
 
       const cursor = (e) => {
-        console.log("move")
         mouseCursor.style.top = e.pageY + "px"
         mouseCursor.style.left = e.pageX + "px"
       }
 
       const enter = (e) => {
-        console.log("enter")
         mouseCursor.classList.remove("hidden")
       }
 
       const leave = (e) => {
-        console.log("leave")
         mouseCursor.classList.add("hidden")
       } 
-      
+
       window.addEventListener("mousemove", cursor)
       window.addEventListener("mouseover", enter)
       window.addEventListener("mouseout", leave)
