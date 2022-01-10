@@ -43,6 +43,4 @@ Better Man (Taylor's Version) (From The Vault) - Taylor Swift
 
 Nothing New (feat. Phoebe Bridgers) (Taylor’s Version) (From The Vault) - Taylor Swift  
 
-寂寞留白 (電影《揚名立萬》推廣曲) - 告五人  
-
 Message In A Bottle (Taylor's Version) (From The Vault) - Taylor Swift  
