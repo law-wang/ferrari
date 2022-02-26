@@ -1,0 +1,6 @@
+---
+layout: post
+date:   2022-02-19 02:13:42
+---
+
+TOLD YOU I'M NOT BULLETPROOF NOW YOU KNOW
